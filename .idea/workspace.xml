@@ -2,115 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe02cb6-3c6d-45f1-87a7-05e6e03289f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.formatter.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchee.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchee_json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/connection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cowboy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cowlib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/db_connection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/decimal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/dialyxir.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/earmark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_sql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ex_doc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/excoveralls.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/file_system.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/floki.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gettext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hackney.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/html_entities.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/inch_ex.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jason.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/kadabra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_ecto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_html.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_dashboard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_reload.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_pubsub.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug_cowboy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug_crypto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgrex.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ranch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry_metrics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry_poller.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/websocket_client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/x509.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/_custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/phoenix.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/static/images/phoenix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/static/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chirp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/dev.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/prod.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/prod.secret.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp/application.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp/repo.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp/timeline.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp/timeline/post.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/channels/user_socket.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/endpoint.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/gettext.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/live_helpers.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/modal_component.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/page_live.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/page_live.html.leex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/form_component.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/form_component.html.leex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/index.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/index.html.leex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.ex" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.html.leex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/show.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/show.html.leex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/router.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/telemetry.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/templates/layout/app.html.eex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/templates/layout/live.html.leex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/templates/layout/root.html.leex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/views/error_helpers.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/views/error_view.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chirp_web/views/layout_view.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mix.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/priv/gettext/en/LC_MESSAGES/errors.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/priv/gettext/errors.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/priv/repo/migrations/.formatter.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/priv/repo/migrations/20200423145629_create_posts.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/priv/repo/seeds.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chirp/timeline_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chirp_web/live/page_live_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chirp_web/live/post_live_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chirp_web/views/error_view_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chirp_web/views/layout_view_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/support/channel_case.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/support/conn_case.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/support/data_case.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dev.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chirp_web/live/post_live/index.html.leex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/index.html.leex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.ex" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/assets/node_modules/phoenix/" />
     <ignored path="$PROJECT_DIR$/assets/node_modules/phoenix_html/" />
@@ -140,14 +36,27 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/chirp_web/live/post_live/index.html.leex">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="324">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/chirp/timeline.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -155,13 +64,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.html.leex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="216">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>body</find>
+      <find>id</find>
+      <find>change_post</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,6 +86,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/dev.exs" />
+        <option value="$PROJECT_DIR$/lib/chirp_web/live/post_live/index.html.leex" />
         <option value="$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.html.leex" />
         <option value="$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.ex" />
       </list>
@@ -246,6 +163,19 @@
               <item name="chirp" type="b2602c69:ProjectViewProjectNode" />
               <item name="chirp" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="chirp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chirp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chirp" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="chirp" type="462c0819:PsiDirectoryNode" />
+              <item name="timeline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chirp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chirp" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="chirp_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,15 +230,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590848038262</updated>
-      <workItem from="1590848041323" duration="1597000" />
+      <workItem from="1590848041323" duration="3981000" />
     </task>
+    <task id="LOCAL-00001" summary="Rebuild locally">
+      <created>1590849800220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590849800220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1597000" />
+    <option name="totallyTimeSpent" value="3981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1160" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
@@ -338,16 +277,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rebuild locally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild locally" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/test.exs">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dev.exs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -359,20 +295,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/chirp_web/live/post_live/index.html.leex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chirp_web/live/post_live/form_component.html.leex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chirp/timeline/post.ex">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.html.leex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="216">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chirp/timeline.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chirp_web/live/post_live/post_component.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
