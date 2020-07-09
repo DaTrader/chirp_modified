@@ -7,7 +7,10 @@ defmodule ChirpWeb.PostLive.Index do
   @impl true
   def mount(_params, _session, socket) do
     if connected?(socket), do: Timeline.subscribe()
-    {:ok, assign(socket, :posts, fetch_posts()), temporary_assigns: [posts: []]}
+    posts = fetch_posts()
+    {:ok, socket
+          |> assign( :some_data, generate_some_data( :mounted))
+          |> assign( :posts, posts), temporary_assigns: [posts: []]}
   end
 
   @impl true
@@ -43,14 +46,30 @@ defmodule ChirpWeb.PostLive.Index do
 
   @impl true
   def handle_info({:post_created, post}, socket) do
-    {:noreply, update(socket, :posts, fn posts -> [post | posts] end)}
+    {:noreply, socket
+               |> assign( :some_data, generate_some_data( :post_created, post))
+               |> update( :posts, fn posts -> [post | posts] end)}
   end
 
   def handle_info({:post_updated, post}, socket) do
-    {:noreply, update(socket, :posts, fn posts -> [post | posts] end)}
+    {:noreply, socket
+               |> assign( :some_data, generate_some_data( :post_updated, post))
+               |> update( :posts, fn posts -> [post | posts] end)}
   end
 
   defp fetch_posts do
     Timeline.list_posts()
   end
+
+
+  defp generate_some_data( event, post \\ nil)
+
+  defp generate_some_data( event, nil),
+       do: %{ event: event, id: nil, likes: nil, reposts: nil, print: generate_print()}
+
+  defp generate_some_data( event, post),
+       do: %{ event: event, id: post.id, likes: post.likes_count, reposts: post.reposts_count, print: generate_print()}
+
+  defp generate_print(),
+       do: make_ref() |> :erlang.ref_to_list() |> List.to_string()
 end

@@ -9,12 +9,23 @@
     return_to: Routes.post_index_path(@socket, :index) %>
 <% end %>
 
-
-<div id="posts" phx-update="prepend">
-
-  <%= for post <- @posts do %>
-    <%= live_component @socket, ChirpWeb.PostLive.PostComponent, id: post.id, post: post %>
-  <% end %>
+<div id="holder"
+     <%= with %{ event: event, id: id, likes: likes, reposts: reposts, print: print} <- @some_data |> IO.inspect() do %>
+       <%= unless event == :mounted && !likes do %>
+         <%= if reposts do %>
+          data-reposts="true"
+         <% end %>
+         <%= unless is_nil( id) do %>
+          data-print="<%= print %>"
+         <% end %>
+       <% end %>
+     <% end %>
+     >
+  <div id="posts" phx-update="prepend">
+    <%= for post <- @posts do %>
+      <%= live_component @socket, ChirpWeb.PostLive.PostComponent, id: post.id, post: post %>
+    <% end %>
+  </div>
 </div>
 
 <span><%= live_patch "New Post", to: Routes.post_index_path(@socket, :new) %></span>

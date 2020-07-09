@@ -6,11 +6,7 @@
     <div class="column column-90 post-body">
       <b>@<%= @post.username %></b>
       <br/>
-      <input type="text"
-             value="<%= @post.body %>"
-             phx-blur="update_body"
-             phx-target="<%= @myself %>"
-             id="body-<%= @post.id %>"/>
+      <%= @post.body %>
     </div>
   </div>
 
